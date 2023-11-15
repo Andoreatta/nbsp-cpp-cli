@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -m64 -O3 -DNDEBUG -m64 CMakeFiles/nbspcli.dir/src/main.cpp.o -o nbspcli   -L/home/lain/.conan2/p/b/fmtf46b675cd96ae/p/lib  -Wl,-rpath,/home/lain/.conan2/p/b/fmtf46b675cd96ae/p/lib -lNBioBSP /home/lain/.conan2/p/b/fmtf46b675cd96ae/p/lib/libfmt.a -lm 

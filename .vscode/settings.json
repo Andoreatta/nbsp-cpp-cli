@@ -1,0 +1,7 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "srl-exp-net",
+        "projectKey": "Andoreatta_nbsp-cpp-cli"
+    },
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}/.vscode/compile_commands.json"
+}

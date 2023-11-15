@@ -1,0 +1,1 @@
+. "/home/lain/Projects/nbsp-cpp-cli/build/conanbuildenv-release-x86_64.sh"
