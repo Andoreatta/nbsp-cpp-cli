@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
     if (result.count("init")) {
         nbioApiReturn = NBioAPI_Init(&nbioApiHandle);
         if (nbioApiReturn != NBioAPIERROR_NONE) {
-            fmt::print("Failed to initialize SDK\n");
+            fmt::print("Failed to initialize SDK, Error code: {}", nbioApiReturn);
             return 1;
         }
         fmt::print("Initialized handle\n");
