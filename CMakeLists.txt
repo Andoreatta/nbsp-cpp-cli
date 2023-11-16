@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 find_package(fmt REQUIRED)
 find_package(cxxopts REQUIRED)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 add_compile_options(-pedantic-errors -Wall -Weffc++ -Wextra  -Wconversion -Wsign-conversion -Werror)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
