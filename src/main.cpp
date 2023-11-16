@@ -10,8 +10,9 @@ int main(int argc, char* argv[]) {
     NBioAPI_DEVICE_ID nbioApiDeviceId;
     
     options.add_options()
-        ("i,init", "Initialize SDK");
-        ("e,enroll", "Execute enroll function and return a hash");
+        ("i,init", "Initialize SDK")
+        ("e,enroll", "Execute enroll function and return a hash")
+        ;
 
     auto result = options.parse(argc, argv);
 

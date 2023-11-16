@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(nbspcli CXX)
 
 set(CMAKE_CXX_STANDARD 23)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 find_package(fmt REQUIRED)
 find_package(cxxopts REQUIRED)
