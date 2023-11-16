@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = -D_GLIBCXX_USE_CXX11_ABI=0
 
-CXX_INCLUDES = -I/home/lain/Projects/nbsp-cpp-cli/include -isystem /home/lain/.conan2/p/cxxop4978315906113/p/include -isystem /home/lain/.conan2/p/b/fmtf46b675cd96ae/p/include
+CXX_INCLUDES = -isystem /home/lain/.conan2/p/cxxop4978315906113/p/include -isystem /home/lain/.conan2/p/b/fmtf46b675cd96ae/p/include
 
 CXX_FLAGS = -m64 -O3 -DNDEBUG -std=c++23 -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror
 
